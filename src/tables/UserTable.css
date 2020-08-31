@@ -1,0 +1,46 @@
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.table td , .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.table tr:nth-child(even) {
+    background-color: burlywood;
+}
+.table tr:hover {
+    background-color: rgb(48, 70, 70);
+    color: white;
+    cursor: pointer;
+}
+.table th{
+    padding: 12px 0 ;
+    background-color: rgba(21, 115, 138, 0.75);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.table > tr > td > button {
+    padding: 10px 20px;
+}
+.button{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(102, 102, 102);
+    outline: none;
+}
+.button-edit{
+    background-color: rgba(61, 61, 223, 0.7);
+    margin-right: 10px;
+}
+.button-delete{
+    background-color: rgb(253, 21, 21,0.8);
+    margin-right: 10px;
+}
